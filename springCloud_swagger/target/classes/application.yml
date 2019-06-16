@@ -1,0 +1,13 @@
+###服务启动端口号
+server:
+  port: 8003
+#swagger单独使用，不用注册到eureka
+###服务名称 
+#spring:
+#  application: 
+#     name: swagger-server
+#eureka:
+#  client:
+#    service-url:
+#    ##集群下，配置多个地址
+#      defaultZone: http://127.0.0.1:8100/eureka
